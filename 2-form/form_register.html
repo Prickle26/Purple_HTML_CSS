@@ -8,10 +8,12 @@
   <body>
     <main>
       <h1>Регистрация</h1>
-      <h2>
-        Уже есть аккаунт?
-        <a href="#">Войти</a>
-      </h2>
+      <div>
+        <h2>
+          Уже есть аккаунт?
+          <a href="#">Войти</a>
+        </h2>
+      </div>
       <form action="#">
         <div>
           <input
@@ -22,7 +24,7 @@
             required
           />
         </div>
-        <span>
+        <div>
           <input
             type="text"
             placeholder="Имя"
@@ -38,7 +40,7 @@
             id="last_name"
             required
           />
-        </span>
+        </div>
         <div>
           <input
             type="email"
@@ -50,11 +52,11 @@
         </div>
         <div><button>Зарегистрироваться</button></div>
 
-        <span
-          ><label for="accept">Я прочитал и принимаю</label>
+        <div>
+          <label for="accept">Я прочитал и принимаю</label>
           <input type="checkbox" name="accept" id="accept" required />
-          <a href="#">Условия использования</a></span
-        >
+          <a href="#">Условия использования</a>
+        </div>
       </form>
     </main>
   </body>
